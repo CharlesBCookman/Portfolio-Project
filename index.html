@@ -7,9 +7,9 @@
 </head>
 <body>
   <div class="toppagelinks">
-    <a>Portfolio</a>
-    <a>About</a>
-    <a>Contact</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a class="highlight" href="#contact">Contact</a>
   </div>
   <div>
     <p>Portfolio</p>
@@ -19,11 +19,11 @@
   <h1 class="offwhite"><strong>Software Developer</strong></h1>
   <p class="offwhite">HTML  //  CSS  //  JavaScript</p>
   <div>
-    <img src="img/profilepic.jpg" alt="Charles' profile picture.">
+    <img id="profilepic" src="img/profilepic.jpg" alt="Charles' profile picture.">
   </div>
-  <h3><strong>Portfolio</strong></h3>
-  <p>From HTML to JavaScript, check out my latest web projects.</p>
-  <ul class="listprojects">
+  <h3 class="darkblue" id="portfolio"><strong>Portfolio</strong></h3>
+  <p class="darkblue">From HTML to JavaScript, check out my latest web projects.</p>
+  <ul  class="darkblue" class="listprojects">
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
@@ -47,24 +47,24 @@
     <img>
   </div>
   <div>
-    <p>Like What You See?</p>
-    <a>Click to Contact</a>
+    <p class="darkblue">Like What You See?</p>
+    <a class="highlight">Click to Contact</a>
   </div>
-  <h3><strong>About My Skills</strong></h3>
+  <h3  class="offwhite" id="about"><strong>About My Skills</strong></h3>
   <br>
-  <p>Super awesome sauce!</p>
+  <p class="offwhite">Super awesome sauce!</p>
   <br>
-  <p>How the awesome got in the sauce.</p>
+  <p class="offwhite">How the awesome got in the sauce.</p>
   <br>
-  <p>Current Proficiencies:</p>
+  <p class="offwhite">Current Proficiencies:</p>
   <div>
-  <ol>
-    <li>HTML</li>
-    <img>
-    <li>CSS</li>
-    <img>
-    <li>JavaScript</li>
-    <img>
+  <ol class="darkblue">
+    <li class="offwhite">HTML</li>
+    <img src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="a model with HTML inside a rectagle shaped like a website window">
+    <li class="offwhite">CSS</li>
+    <img src="https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="css code on monitor">
+    <li class="offwhite">JavaScript</li>
+    <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="javascript on oni">
   </ol>
   </div>
   <div>
@@ -75,6 +75,6 @@
     <br>
     <p>When I am not coding, I can be found cooking up new recipies my children (<em>somethimes</em>) eat, exploring the outdoors, or enjoying tabletop and video games with friends and family.</p>
   </div>
-  <p><strong>Contact</strong></p>
+  <p id="contact"><strong>Contact</strong></p>
 </body>
 </html>
