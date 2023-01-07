@@ -1,3 +1,8 @@
 .toppagelinks {
-  display: flexbox;
+  display: flex;
+  justify-content: right;
+}
+
+.toplink {
+  margin-right: 2%;
 }
