@@ -9,6 +9,12 @@ body {
   margin-right: 10%;
 }
 
+.picflex {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
 #profilepic {
   max-width: 25%;
   min-width: 20%;
