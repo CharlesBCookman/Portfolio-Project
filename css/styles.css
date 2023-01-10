@@ -1,8 +1,22 @@
+body {
+  background-color: #152237;
+  color:  #f2f2f2 ;
+}
+
 .toppagelinks {
   display: flex;
   justify-content: right;
+  margin-right: 10%;
+}
+
+#profilepic {
+  max-width: 25%;
+  min-width: 20%;
 }
 
 .toplink {
-  margin-right: 2%;
+  display: flex;
+  margin: 2% 5%;
+  color: #f2f2f2;
+  
 }
