@@ -1,6 +1,22 @@
 body {
   background-color: #152237;
-  color:  #f2f2f2 ;
+  color:  #f2f2f2;
+  z-index: 0;
+}
+
+.toplink {
+  display: flex;
+  margin: 2% 5%;
+  color: #f2f2f2;
+  
+}
+
+#background-image {
+  background-image: url("/img/portfolio-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20vh;
+  height: 100vh;
 }
 
 .toppagelinks {
@@ -9,20 +25,48 @@ body {
   margin-right: 10%;
 }
 
-.picflex {
+.intro {
+  margin-top: 10vh;
+  display: flex;
+  width: 100vw;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.right-side {
   display: flex;
   justify-content: right;
-  flex-wrap: wrap;
+  flex: 1;
+  padding-right: 15%;
 }
 
 #profilepic {
-  max-width: 25%;
-  min-width: 20%;
+  width: 30%;
+  border: #f2f2f2 ridge 5px;
 }
 
-.toplink {
+#green {
+  color: #7ac943;
+}
+
+#projects {
   display: flex;
-  margin: 2% 5%;
-  color: #f2f2f2;
-  
+  flex: 1;
+  flex-wrap: wrap;
+  justify-items: auto;
+  justify-content: space-between;
+  background-color: #152237;
+}
+
+#project1, #project2, #project3, #project4, #project5, #project6 {
+  display: flex;
+  width: 30vw;
+  height: 30vw;
+  padding: 1%;
+
+  justify-content: center;
 }
