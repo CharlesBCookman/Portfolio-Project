@@ -11,14 +11,6 @@ body {
   
 }
 
-#background-image {
-  background-image: url("/img/portfolio-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 20vh;
-  height: 100vh;
-}
-
 .toppagelinks {
   display: flex;
   justify-content: right;
@@ -35,6 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin-top: -10vh;
 }
 
 .right-side {
@@ -45,8 +38,10 @@ body {
 }
 
 #profilepic {
-  width: 30%;
-  border: #f2f2f2 ridge 5px;
+  display: flex;
+  border-radius: 8px;
+  height: 30vh;
+  width: auto;
 }
 
 #green {
